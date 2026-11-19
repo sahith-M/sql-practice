@@ -1,0 +1,6 @@
+# Raw data stays local (too big for GitHub, and it is public anyway)
+data/*
+!data/.gitkeep
+*.csv
+# Contains your local file path
+sql/01_load_raw.sql
